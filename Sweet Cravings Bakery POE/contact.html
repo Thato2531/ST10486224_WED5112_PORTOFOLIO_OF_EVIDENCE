@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- SEO Meta Tags -->
+<title>Contact Sweet Cravings Bakery in Johannesburg</title>
+<meta name="description" content="Get in touch with Sweet Cravings Bakery in Johannesburg. Find our contact details, address, phone, and email." />
+<meta name="keywords" content="Bakery, Johannesburg, Contact, Cake Shop, Pastry, Sweet Cravings" />
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="logo-container">
+    <img src="images/logo.webp" alt="Sweet Cravings Bakery" class="logo" />
+  </div>
+  <h1>Contact Us</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="products.html">Products</a>
+    <a href="location.html">Store Location</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="section-padding">
+  <h2 class="section-heading">Get in Touch</h2>
+  <p class="section-text">
+    You can reach us at the following:
+  </p>
+  <p class="section-text"><strong>Address:</strong> 123 Braam Street, Johannesburg, South Africa</p>
+  <p class="section-text"><strong>PO Box:</strong> PO Box 12345, Johannesburg, 2000</p>
+  <p class="section-text"><strong>Phone:</strong> +27 11 234 5678</p>
+  <p class="section-text"><strong>Email:</strong> info@sweetcravings.co.za</p>
+
+  <form id="contact-form" class="contact-form" onsubmit="return showThankYouMessage();">
+    <input type="text" placeholder="Your Name" required class="input-field" /><br>
+    <input type="email" placeholder="Your Email" required class="input-field" /><br>
+    <textarea placeholder="Your Message" rows="5" required class="input-field"></textarea><br>
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+  <div id="form-message">Thank you! Your message has been received.</div>
+</section>
+
+<!-- Lightbox Script for other pages -->
+<script>
+  function showThankYouMessage() {
+    document.getElementById('form-message').style.display = 'block';
+    document.getElementById('contact-form').reset();
+    return false; // prevent actual form submission
+  }
+</script>
+
+<footer>
+  <p>&copy; 2024 Sweet Cravings Bakery. All rights reserved.</p>
+</footer>
+</body>
+</html>
+4. style.css Updates

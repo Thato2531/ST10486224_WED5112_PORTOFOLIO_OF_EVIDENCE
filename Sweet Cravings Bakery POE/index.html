@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- SEO Meta Tags -->
+<title>Welcome to Sweet Cravings Bakery</title>
+<meta name="description" content="Delicious bakery in Johannesburg. Cakes, pastries, and more. Come visit us or contact today!" />
+<meta name="keywords" content="Bakery, Johannesburg, Cakes, Pastries, Sweets, Bakery Shop" />
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="logo-container">
+    <img src="images/logo.webp" alt="Sweet Cravings Bakery" class="logo" />
+  </div>
+  <h1>Welcome to Sweet Cravings Bakery</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="products.html">Products</a>
+    <a href="location.html">Store Location</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- Your main content here -->
+<section class="section-padding">
+  <h2 class="section-heading">Our Delicious Products</h2>
+  <p class="section-text">Enjoy our wide variety of baked goods!</p>
+  <!-- ... your other content ... -->
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery-section">
+  <h2 class="section-heading">Gallery</h2>
+  <div class="gallery">
+    <img src="images/Delicious Cake.webp" alt="Delicious Cake" class="gallery-img" />
+    <img src="images/Pastry.webp" alt="Pastry" class="gallery-img" />
+    <img src="images/Bakery Products.webp" alt="Bakery Products" class="gallery-img" />
+    <img src="images/Sweet Pastries.jpg" alt="Sweet Pastries" class="gallery-img" />
+  </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" src="" alt="" />
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 Sweet Cravings Bakery. All rights reserved.</p>
+</footer>
+
+<!-- JavaScript for Lightbox -->
+<script>
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.querySelector('.lightbox-img');
+  const closeBtn = document.querySelector('.close');
+  const galleryImages = document.querySelectorAll('.gallery-img');
+
+  galleryImages.forEach(img => {
+    img.addEventListener('click', () => {
+      lightbox.style.display = 'flex';
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+    });
+  });
+
+  closeBtn.onclick = () => {
+    lightbox.style.display = 'none';
+  };
+
+  window.onclick = (event) => {
+    if (event.target === lightbox) {
+      lightbox.style.display = 'none';
+    }
+  };
+</script>
+</body>
+</html>
