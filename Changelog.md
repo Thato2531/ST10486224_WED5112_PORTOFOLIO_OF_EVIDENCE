@@ -1,7 +1,5 @@
 # Sweet Cravings Bakery Changelog
-All notable changes to the **Sweet Cravings Bakery** website project will be documented in this file.
-
-## [1.0.0] — Initial Development and Progressive Enhancements
+All notable changes to the **Sweet Cravings Bakery** website project.
 
 ### Overview
 The project establishes a fully functional, multi-page bakery website featuring a modern design, intuitive navigation, and visually engaging elements. The primary goal of this release is to build the complete foundation of the website, including structure, styling, responsiveness, and interactive components.
