@@ -1,17 +1,17 @@
-# 🧁 Sweet Cravings Bakery – Website (POE)
+# Sweet Cravings Bakery – Website (POE)
 
 Welcome to the official repository for **Sweet Cravings Bakery**, a Johannesburg-based bakery offering freshly baked treats with love.  
 This website is designed to showcase our bakery, products, location, and contact details while providing a beautiful, responsive user experience.
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This repository contains the full website for **Sweet Cravings Bakery POE**, including pages for products, contact information, location, and an image gallery with a lightbox feature. The project is structured for easy deployment and customization.
 
 ---
 
-## 🎯 Purpose of the Website
+##  Purpose of the Website
 
 The Sweet Cravings Bakery website aims to:
 
@@ -23,34 +23,34 @@ The Sweet Cravings Bakery website aims to:
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🏠 Homepage (`index.html`)
+###  Homepage (`index.html`)
 - Welcome message and introduction  
 - Image gallery displaying bakery products  
 - Lightbox modal for enlarged images  
 - Navigation menu linking to all pages  
 
-### 📍 Location Page (`location.html`)
+###  Location Page (`location.html`)
 - Full address and operating hours  
 - Embedded Google Map for directions  
 
-### 📬 Contact Page (`contact.html`)
+###  Contact Page (`contact.html`)
 - Address, PO Box, phone number, and email  
 - Fully functional contact form  
 - Custom “Thank You” message after submission  
 
-### 🖼️ Gallery with Lightbox
+###  Gallery with Lightbox
 - Clickable thumbnails  
 - Modal overlay to view full-size images  
 - Close by clicking “X” or outside the modal  
 
-### 🔎 SEO Optimization
+###  SEO Optimization
 - Proper page titles  
 - Meta descriptions  
 - Open Graph tags for social sharing  
 
-### 📱 Responsive Design
+###  Responsive Design
 - Mobile-friendly layout  
 - Flexible gallery  
 - Centered content and images  
@@ -79,23 +79,23 @@ SWEET CRAVINGS BAKERY POE/
 
 ---
 
-## 🔧 Recent Updates & Enhancements
+##  Recent Updates & Enhancements
 
-### ✔ Improvements Made
+###  Improvements Made
 - Added SEO-friendly meta tags  
 - Created a gallery section with lightbox  
 - Built a full contact page with form  
 - Added CSS to center GIFs  
 - Fixed lightbox visibility and interactions  
 
-### ✔ New Additions
+###  New Additions
 - New HTML sections (gallery, map, contact details)  
 - Responsive CSS styling  
 - JavaScript for interactive elements  
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 
 1. **Download** or clone the repository  
 2. **Extract** and replace images/content as needed  
@@ -103,12 +103,14 @@ SWEET CRAVINGS BAKERY POE/
 
 ---
 
-## ❤️ Credits
+##  Credits
 
 Developed for **Sweet Cravings Bakery POE – Johannesburg, South Africa**  
 Thank you for supporting local baked goodness!
 
 ---
+## Github link
+
 ## References
 W3Schools. (2023). HTML Tutorial. Available at: https://www.w3schools.com/html/ (Accessed: 17 November 2025).
 
