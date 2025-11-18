@@ -119,5 +119,5 @@ Unsplash. (2024). Free High-Resolution Photos. Available at: https://unsplash.co
 Mozilla Developer Network (MDN). (2024). HTML Image Element. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img (Accessed: 17 November 2025).
 
 Bootstrap. (2024). Responsive Web Design. Available at: https://getbootstrap.com/docs/5.0/layout/responsive-embed/ (Accessed: 17 November 2025).
-## 📂 Folder Structure
+
 
