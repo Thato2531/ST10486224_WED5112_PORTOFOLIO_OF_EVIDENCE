@@ -103,12 +103,6 @@ SWEET CRAVINGS BAKERY POE/
 
 ---
 
-##  Credits
-
-Developed for **Sweet Cravings Bakery POE – Johannesburg, South Africa**  
-Thank you for supporting local baked goodness!
-
----
 ## Github link
 https://github.com/Thato2531/ST10486224_WED5112_PORTOFOLIO_OF_EVIDENCE 
 ## References
